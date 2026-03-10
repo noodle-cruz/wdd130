@@ -1,0 +1,75 @@
+
+@font-face {
+    font-family: 'insert font name';
+    src: url('insert path to font');
+
+}
+
+body {
+    /* just decoration: just a background element.
+    want to have user interact? use background-image. */
+    /* '..': exit one folder. '/': enter folder */
+    /*background: url(../images/background_circuit.png); (can't use this because
+    i dont have any images in that file)*/
+    background: blue
+}
+
+#wrapper {
+    /* selector {property: value (in this case 'size line-type colour'} */
+    border: 3px solid #061f47;
+    border-radius: 20px;
+    width: 1024px; 
+    /* 'margin auto': auto take all the space outside the element,
+        evenly distributes between left & right */
+    margin: 40px auto;
+    box-shadow: 10px 10px #a5adaf;
+    background-color: #fdfdfe;
+}
+
+h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float: left;
+    margin-top: 50px;
+}
+
+main section {
+    /* w & h are the same length; make it a square. */
+    width: 360px;
+    height: 360px;
+    background: #a5adaf;
+    border: 12px solid #061f47;
+    padding: 16px;
+}
+
+header img {
+    float: left;
+}
+
+header {
+    height: 150px;
+    border-bottom: 3px solid black;
+}
+
+nav {
+    width: 100px;
+    background: #753014;
+    height: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fdfdfe;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+nav a {
+    color: #fdfdfe;
+}
+
+nav li {
+    display: flex;
+    height: 50px;
+    align-items: center ;
+}

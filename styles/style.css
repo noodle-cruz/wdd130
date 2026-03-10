@@ -1,0 +1,168 @@
+/*Styles for portal page index.html*/
+
+/* TO-DO:
+    - ALIGN/SIZE: MAIN DIVS
+    - ADD/EDIT: INTERACTABILITY
+    - FINAL: REMOVE/EDIT BORDERS
+
+*/
+
+
+/*body*/
+body {
+    background: #002626  ;
+}
+p {
+    font-family: 'Playwrite NZ Basic Guides';
+}
+h2 {
+    text-decoration: underline;
+}
+
+/*wrapper*/
+#wrapper {
+    background: #efe7da;
+}
+
+
+/*header*/
+header {
+    background: #0e4749;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+#logo {
+    grid-column: 1/2;
+}
+header img {
+    margin-left: 40px;
+}
+header div {
+    grid-column: 2/3;
+}
+header h1 {
+    color: #efe7da;
+    font-family: 'UnifrakturMaguntia';
+    font-size:500%;
+    margin: 30px 70px 10px 70px;
+    text-shadow: -5px 5px 0#002626;
+    /*h-shadow v-shadow blur-radius color*/
+}
+header p {
+    color: #95c623;
+    margin: 0px 100px 30px 100px;
+    text-shadow: -2px 2px 0 #002626;
+
+}
+
+
+/*nav*/
+nav {
+    background: #95c623;
+    color: BLACK;
+    padding: 5px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px 170px 0px 170px;
+}
+li {
+    list-style-type: none;
+    width: 90px;
+    text-align: center;
+    align-self: center;
+}
+li:hover {
+    background: #EDE977;
+    height: 100%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/*main*/
+main {
+    background: #efe7da;
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+main p {
+    max-width: 1000px;
+    justify-self: center;
+}
+#ihome, #iice {
+    float: left;
+}
+#iwrr, #iam {
+    float: right;
+}
+#phome, #pice {
+    margin-left: 50px;
+    box-sizing: border-box;
+    margin: 0px 50px;
+}
+#pwrr, #pam {
+    margin-right: 50px;
+    box-sizing: border-box;
+    margin: 0px 50px;
+}
+main h2 {
+    margin: 0px 50px;
+    justify-self: center;
+    box-sizing: border-box;
+    max-width: 1000px;
+}
+main div {
+    box-sizing: border-box;
+    width: 100%;
+}
+main img {
+    margin: 50px;
+    border: #e55812 10px inset;
+}
+
+
+/*footer*/
+footer {
+    background: #0e4749;
+    color: #efe7da;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+footer p {
+    margin: 0px 0px 0px 0px;
+}
+form {
+    margin: 5px;
+}
+#email {
+    background: #efe7da;
+}
+#submit {
+    background: #95c623;
+    
+}
+#submit:hover {
+    background: #EDE977;
+}
+
+
+/*i-ce*/
+.ice a {
+    margin-left: 50px;
+    border:#e55812 5px outset;
+    border-radius: 8px;
+}
+.ice a:hover {
+    background-color: #EDE977;
+    max-width: 100%;
+    border:#e55812 5px inset;
+}
