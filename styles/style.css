@@ -166,3 +166,15 @@ form {
     max-width: 100%;
     border:#e55812 5px inset;
 }
+
+/*project*/
+.project a {
+    margin-left: 50px;
+    border:#e55812 5px outset;
+    border-radius: 8px;
+}
+.project a:hover {
+    background-color: #EDE977;
+    max-width: 100%;
+    border:#e55812 5px inset;
+}
