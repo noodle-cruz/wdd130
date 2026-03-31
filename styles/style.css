@@ -168,7 +168,13 @@ form {
 }
 
 /*project*/
+.project {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 .project a {
+    font-family: 'Playwrite NZ Basic Guides';
     margin-left: 50px;
     border:#e55812 5px outset;
     border-radius: 8px;
