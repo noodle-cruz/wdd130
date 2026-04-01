@@ -60,7 +60,7 @@ header p {
 nav {
     background: #95c623;
     color: BLACK;
-    padding: 5px;
+    padding: 0px;
 }
 ul {
     display: flex;
@@ -75,6 +75,7 @@ li {
     text-align: center;
     align-self: center;
     height: 20px;
+    padding: 10px;
 }
 li:hover {
     background: #EDE977;
